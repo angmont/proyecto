@@ -51,7 +51,7 @@ if __name__ == "__main__":
         code_function = cmds.get(main_cmd, cmds.get("encode"))
         print(encode_decode_bytes(sys.stdin.read(), code_function))
 
-    #Parte que agregué yo para la realización de la practica
+    #Parte que agregué yo para la realización de la práctica
     save_file("hola_mundo.b64", encode_file("hola_mundo.c"))
     #Codificacion del archivo hola_mundo.c
     save_file("mystery_img1.jpg", decode_file("mystery_img1.txt"))
