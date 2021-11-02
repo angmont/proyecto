@@ -1,0 +1,2 @@
+El archivo .exe generado con pyinstaller a partir del
+script P11_WebScrapingP5 se encuentra dentro de la carpeta "dist"
